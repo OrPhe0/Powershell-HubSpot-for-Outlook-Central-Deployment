@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="Sidekick.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="11.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <appSettings>
+    <add key="SidekickSharedHost" value="VSTO" />
+  </appSettings>
+  <userSettings>
+    <Sidekick.Properties.Settings>
+      <setting name="DownloadUrl" serializeAs="String">
+        <value>http://signals-outlook-builds.s3.amazonaws.com/trayapp/</value>
+      </setting>
+      <setting name="FirstTimeInstallTracked" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="FirstTimeLoginWindowEventsTracked" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="AnonymousID" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="DismissedTrayApp" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="DebugMode" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="TrackEmailDefault" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="LogEmailDefault" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ContactProfilesEnabled" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="UpgradeSettings" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="CurrentVersion" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="LastLoginTimeUtc" serializeAs="String">
+        <value />
+      </setting>
+    </Sidekick.Properties.Settings>
+  </userSettings>
+  <system.net>
+    <defaultProxy useDefaultCredentials="true" />
+  </system.net>
+</configuration>

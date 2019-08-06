@@ -1,0 +1,1 @@
+This script installs Hubspot for Outlook version 10.0.0.192
